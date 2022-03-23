@@ -2,11 +2,23 @@
 
 # Action Widget Example
 
-This is a starter widget template using ***Create React App***
+This is a starter widget template using ***Create React App*** and TypeScript
 
 The implementation is using our **TextKit React SDK**
 
 For more information please checkout our documentation at [TextKit](https://docs.textkit.io)
+
+---
+
+## How It's Structured
+
+The `App.tsx` file contains the entry point that uses our `TextKitWidgetProvider`. 
+
+This is where you can setup your default `Header, Footer and/or Label`
+
+The `Widget.tsx` file is where your widget code exists you are free to update this file to your desire. 
+
+You will notice the usage of our `useTextKit` hook which allows you to access the state and different functions you can perform. Please refer to our documentation for more details.
 
 ---
 
